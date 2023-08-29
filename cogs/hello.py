@@ -10,7 +10,6 @@ class Hello(commands.Cog):
     @app_commands.command(name="hello", description="Guten tag")
     async def hello(self, interaction: discord.Interaction):
         await interaction.response.send_message("Hello World")
-        #falls ich noch was senden möchte response.followup
 
 async def setup(bot):
     await bot.add_cog(Hello(bot))
