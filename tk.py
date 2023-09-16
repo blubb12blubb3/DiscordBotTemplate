@@ -1,1 +1,1 @@
-TOKEN="ENTER YOUR TOKEN HERE"
+TOKEN="Test Change Token"
